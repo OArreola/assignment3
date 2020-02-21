@@ -11,25 +11,6 @@ function getUserNumber(isFirstNumber) {
   return userNumber;
 }
 
-function getOperationToPerform() {
-  let operation = "";
-  let operationValid;
-  do {
-    operationValid = false;
-
-    if (
-      operation === "+" ||
-      operation === "-" ||
-      operation === "*" ||
-      operation === "/"
-    ) {
-      operationValid = true;
-    } else {
-    }
-  } while (!operationValid);
-  return operation;
-}
-
 function checkValidOperation(operation) {
   let isOperationValid;
   if (
